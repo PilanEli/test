@@ -9,4 +9,5 @@ df = data.frame(x,y)
 
 ggplot(df)+
     geom_point(aes(x,y), size = 10)
+theme_bw()
     
